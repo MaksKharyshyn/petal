@@ -1,0 +1,18 @@
+    /*history styles*/
+
+.history__right__side img{
+    width: 300px;
+    height: 200px;
+    background-image: url('image1.jpg'); /* Фонове зображення */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.history__right__side  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Центруємо зображення */
+    width: 50%; /* Розмір другого зображення */
+}
